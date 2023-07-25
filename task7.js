@@ -21,8 +21,8 @@ function romanToInteger(romanValue) {
 
             if (currentValue < nextValue) {
                 currentValue = nextValue - currentValue;
+                x++;
             }
-            x++;
         }
 
         integerValue += currentValue;
@@ -35,5 +35,6 @@ function romanToInteger(romanValue) {
 console.log(romanToInteger("IX"));
 console.log(romanToInteger("XXI"));
 
+// console.log(romanToInteger("III"));
 // console.log(romanToInteger("CM"));
 // console.log(romanToInteger("CD"));
