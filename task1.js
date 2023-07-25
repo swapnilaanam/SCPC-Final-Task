@@ -16,6 +16,7 @@ function reverseTheString(str1) {
 // Example Input Test
 console.log(reverseTheString('hello world'));
 
+
 // Task 2 : Create a function that takes an array of numbers as input and returns the sum of all positive numbers in the array. 
 
 function sumOfPositiveNumbers(arr1) {
@@ -32,3 +33,5 @@ function sumOfPositiveNumbers(arr1) {
 
 // Example Input Test
 console.log(sumOfPositiveNumbers([2, -5, 10, -3, 7]));
+
+
