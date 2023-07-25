@@ -16,4 +16,4 @@ const simpleCalculator = (num1, num2, operation) => {
 }
 
 console.log(simpleCalculator(5, 3, '*'));
-console.log(simpleCalculator(5, 15, '+'));
+// console.log(simpleCalculator(15, 10, '+'));
